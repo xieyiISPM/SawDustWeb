@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/jobs', function () {
+    return view('jobs');
+});
